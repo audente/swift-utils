@@ -39,3 +39,9 @@ Sample services code:
             var request = URLRequest(url: url)
             return request.injectSecurity(key: self.key, claims: self.claims, body: body)
 ```
+
+
+## KeyChain
+
+`KeyChainWrapper` Usage based on [HacingwithSwift article](https://www.hackingwithswift.com/read/28/3/writing-somewhere-safe-the-ios-keychain)
+
